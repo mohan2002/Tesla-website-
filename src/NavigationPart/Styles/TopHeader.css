@@ -1,0 +1,16 @@
+.TopHeadercontainer{
+    height: 53px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.topheader{
+    font-size: 0.9rem;
+    font-weight:400;
+    color: #04244ec5;
+    letter-spacing: 1px;
+}

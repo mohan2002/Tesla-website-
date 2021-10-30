@@ -1,0 +1,160 @@
+.NavigationContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #393C41;
+    background-color: transparent;
+}
+
+.Navcontainer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logostyle{
+    height: 100px;
+    width: 100px;
+}
+
+.logocontainer,.carscontainer,.settingscontainer{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logocontainer{
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+
+.carscontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 62%;
+    font-size: 0.93rem;
+    font-weight: 400;
+}
+
+.settingscontainer{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.93rem;
+    font-weight: 400;
+}
+
+.shop{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.shop:hover{
+    background-color: #D4DEEA;
+    border-radius: 10px;
+}
+
+
+.menubar
+{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 280px;
+    background-color:white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px;
+    color: #393C41;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.menubar::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.menubar::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.menubar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(175, 175, 175);
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cross{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.cross i {
+    font-size: 1.4rem;
+}
+
+.menuitems{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.menucontent{
+    width: 200px;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+
+.menucontent:hover{
+    background-color: #d4deea65;
+    border-radius: 10px;
+}
+
+
+
+@media all and (max-width:1180px){
+    .carscontainer{
+        display: none;
+    }
+    .sp{
+        display: none;
+    }
+    .settingscontainer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}
