@@ -142,6 +142,8 @@
 @media all and (max-width: 600px){
     .carcontainer{
         height: 100vh;
+        background-size:cover;
+        background-position: center;
     }
     .carcontent{
         height: 100%;
